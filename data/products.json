@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 13 PRO MAX",
+      "price": 7900,
+      "picture": "https://m.media-amazon.com/images/I/41fMEuRY6oL._AC_SX522_.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Macbook pro m2",
+      "price": 13900,
+      "picture": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-select-202206?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664497359481"
+    },
+    {
+      "id": 3,
+      "name": "Câmera GoPro",
+      "price": 3299,
+      "picture": "https://m.media-amazon.com/images/I/51c15x1d4zL._AC_SL1024_.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Headset Gamer Kraken",
+      "price": 799.99,
+      "picture": "https://m.media-amazon.com/images/I/618QDiWWzVL._AC_SX450_.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Controle sem fio-playstation 5",
+      "price": 469.9,
+      "picture": "https://m.media-amazon.com/images/I/618QDiWWzVL._AC_SX450_.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Headset Gamer Kraken",
+      "price": 799.99,
+      "picture": "https://a-static.mlcdn.com.br/1500x1500/controle-dualsense-playstation-5-ps5/magazineluiza/043186600/732a93ba1526677bdc6f23bec6bf759d.jpg"
+    },
+    {
+      "id": 7,
+      "name": "iPad PRO 11",
+      "price": 7.499,
+      "picture": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-finish-select-202212-11inch-space-gray-wifi_FMT_WHH?wid=1280&hei=720&fmt=p-jpg&qlt=95&.v=1670865949101"
+    },
+    {
+      "id": 8,
+      "name": "Amazfit",
+      "price": 275.4,
+      "picture": "https://m.media-amazon.com/images/I/71tHbGjt8iL._AC_SX522_.jpg"
+    }
+  ]
+}
