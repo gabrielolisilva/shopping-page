@@ -9,7 +9,19 @@ import Cart from "./pages/Cart";
 import { productsContext } from "./contexts/productsContext";
 
 function App() {
+  const [itemsQuantity, setItemsQuantity] = useState([
+    "",
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+  ]);
   const [products, setProducts] = useState([]);
+  const [cardItems, setCardItems] = useState([]);
 
   useEffect(() => {
     async function getData() {
@@ -20,13 +32,19 @@ function App() {
     getData();
   }, []);
 
-  console.log(products);
-
   return (
     <div className="App">
       <Router>
         <Navbar />
-        <productsContext.Provider value={{ products }}>
+        <productsContext.Provider
+          value={{
+            products,
+            cardItems,
+            setCardItems,
+            itemsQuantity,
+            setItemsQuantity,
+          }}
+        >
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cart" element={<Cart />} />

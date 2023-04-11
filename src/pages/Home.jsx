@@ -6,9 +6,9 @@ const Home = () => {
   const { products } = useContext(productsContext);
 
   return (
-    <div>
+    <div className="grid grid-cols-2">
       {products.map((item) => {
-        return <SingleProduct item={item} />;
+        return <SingleProduct key={item.id} item={item} />;
       })}
     </div>
   );
